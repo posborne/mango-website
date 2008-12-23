@@ -1,0 +1,33 @@
+@CHARSET "ISO-8859-1";
+/* Mango Color: #FFCC33 */
+
+body {font-family: verdana, "Lucida Grande","Lucida Sans Unicode",sans-serif;
+    font-size:90%; }
+
+#header h1{text-align: center; color: #000;}
+#main {color:#000000}
+.sidebar {background: #FFCC33}
+#footer { }
+div .photobox { padding: 10px; font-size: 70%; color: #ccc }
+
+a, a:link, a:visited {color:#012440}
+a:hover {color:#00f}
+
+/* Layout Properties */
+body {margin:0;padding:0}
+p { line-height: 150%; margin-bottom: 10px;}
+div#wrap {width:800px; padding:0; margin:0 auto}
+div#header {border-bottom: dotted 1px #FCFAE1}
+div#main {margin:0;padding:15px;margin-top: 15px;margin-bottom:15px}
+div#content {float:left; width: 500px}
+div#footer {}
+div#side {float:right;width: 220px;}
+
+.sidebar {margin-bottom: 15px;padding:10px}
+.sidebar h3 {margin-top:0;text-transform:uppercase;font-weight:normal;
+	     border-bottom:dotted 1px #000}
+
+a, a:link {border-bottom: dotted 1px #012440;text-decoration:none;margin-bottom:-4px}
+a:hover {border-bottom:solid 1px #00f}
+ul li { margin-bottom: 3px; }
+#content ul li { line-height: 140%; margin-bottom: 10px; }
