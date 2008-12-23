@@ -48,10 +48,32 @@ servies like Amazon to provide a rich variety of useful features:</p>
 	down the line you know who to hunt down.</li>
 </ul>
 <h2>Screenshots</h2>
-<p><a href="screenshot-main.png"><img src="thumbnail-main.png" /></a><br />
-<a href="screenshot-addeditmovie.png"><img src="thumbnail-addeditmovie.png" /></a><br />
-<a href="screenshot-savedsearch.png"><img src="thumbnail-savedsearch.png" /></a></p>
+<div style="text-align:center">
+  <div class="photobox">
+    <a href="screenshot-main.png">
+    <img src="midsize-main.png" alt="Mango main screen" /></a><br />
+    <p>The Mango main screen lets you browse and sift through your movie collection in many
+      different ways.</p>
+  </div>
+  <div class="photobox">
+    <a href="screenshot-addeditmovie.png">
+    <img src="midsize-addeditmovie.png" alt="Mango Add/Edit Movie Dialog" /></a><br />
+    <p>Adding and editing the movies in your collection is a breeze with Mango</p>
+  </div>
+  <div class="photobox">
+    <a href="screenshot-amazonquery.png">
+    <img src="screenshot-amazonquery.png" alt="Query Amazon from Mango" /></a><br />
+    <p>Adding movies is as easy as typing in the title.  Mango will automagically pull down all
+      the information about your movie from Amazon's databases.</p>
+  </div>
+  <div class="photobox">
+    <a href="screenshot-savedsearch.png">
+    <img src="midsize-savedsearch.png" alt="Advanced Search" /></a><br />
+    <p>Mango lets you create saved, advanced searches.  Enter the criteria once and after that
+      accessing all your favorite Sean Connery movies is as easy as a single click.</p>
+  </div>
 </div>
+
 </div><!-- end body -->
 
 <div id="side">
