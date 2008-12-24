@@ -12,10 +12,12 @@ body {font-family: verdana, "Lucida Grande","Lucida Sans Unicode",sans-serif;
 #main {color:#000000}
 .sidebar {background: #FFCC33}
 #footer { }
-div .photobox { padding: 10px; font-size: 85%; color: #666; line-height: 100% }
-div .photobox a { border: none; }
-div .photobox a:hover { border: none }
-div .photobox img {border: none}
+
+span.photobox {display: block }
+span.photobox { padding: 10px; font-size: 85%; color: #666; line-height: 100% }
+span.photobox a { border: none; }
+span.photobox a:hover { border: none }
+span.photobox img {border: none}
 
 a, a:link, a:visited {color:#012440}
 a:hover {color:#00f}

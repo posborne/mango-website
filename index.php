@@ -1,18 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<?php include("header.php"); ?>
 
-<head>
-    <title>Mango Movie Manager</title>
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-    <link rel="shortcut icon" href="mango.png" type="image/x-icon" />
-</head>
-<body>
-<div id="wrap">
-<div id="header">
-<!--    <h1 id="mango_title">Mango Movie Manager</h1> -->
-<img src="mangotitle.png" alt="Mango Movie Manager" />
-</div>
 <div id="main">
 <div id="navcontainer">
   <ul id="navlist">
@@ -25,8 +12,8 @@
 </div>
 <div id="content">
 <h2>Overview</h2>
-<p><div class="photobox" style="float:right"><a href="screenshot-main.png">
-      <img src="thumbnail-main.png" style="border:none" /></a><br /></div>
+<p><span class="photobox" style="float:right"><a href="screenshot-main.png">
+      <img src="thumbnail-main.png" alt="Mango main screen" style="border:none" /></a><br /></span>
   Mango is an advanced, yet easy to use movie management application.  With
   Mango you can easily keep track and search through your personal movie
   collection without having to go through all of your movies one at a time
@@ -59,47 +46,36 @@ servies like Amazon to provide a rich variety of useful features:</p>
 </ul>
 <h2>Screenshots</h2>
 <div style="text-align:center">
-  <div class="photobox">
+  <span class="photobox">
     <a href="screenshot-main.png">
     <img src="midsize-main.png" alt="Mango main screen" /></a><br />
-    <p>The Mango main screen lets you browse and sift through your movie collection in many
-      different ways.</p>
-  </div>
-  <div class="photobox">
+    The Mango main screen lets you browse and sift through your movie collection in many
+      different ways.
+  </span>
+  <span class="photobox">
     <a href="screenshot-addeditmovie.png">
     <img src="midsize-addeditmovie.png" alt="Mango Add/Edit Movie Dialog" /></a><br />
-    <p>Adding and editing the movies in your collection is a breeze with Mango</p>
-  </div>
-  <div class="photobox">
+    Adding and editing the movies in your collection is a breeze with Mango
+  </span>
+  <span class="photobox">
     <a href="screenshot-amazonquery.png">
     <img src="screenshot-amazonquery.png" alt="Query Amazon from Mango" /></a><br />
-    <p>Adding movies is as easy as typing in the title.  Mango will automagically pull down all
-      the information about your movie from Amazon's databases.</p>
-  </div>
-  <div class="photobox">
+    Adding movies is as easy as typing in the title.  Mango will automagically pull down all
+      the information about your movie from Amazon's databases.
+  </span>
+  <span class="photobox">
     <a href="screenshot-savedsearch.png">
     <img src="midsize-savedsearch.png" alt="Advanced Search" /></a><br />
-    <p>Mango lets you create saved, advanced searches.  Enter the criteria once and after that
-      accessing all your favorite Sean Connery movies is as easy as a single click.</p>
-  </div>
+    Mango lets you create saved, advanced searches.  Enter the criteria once and after that
+      accessing all your favorite Sean Connery movies is as easy as a single click.
+  </span>
 </div>
 
 </div><!-- end body -->
-
-<div id="side">
-<div class="sidebar">
-   <h3>Get Mango!</h3>
-   <p>Mango is free and runs on any operating system with Java 6 installed. Get started
-	by downloading Mango now!
-   <h4>Download Mango!</h4>
-   <ul>
-	<li><a href="downloads/mango1.0-win32.exe">Mango for Windows</a></li>
-	<li><a href="downloads/mango1.0-osx.dmg">Mango for Mac</a></li>
-	<li><a href="downloads/mango1.0-linux.tar.gz">Mango for Linux</a></li>
-	<li><a href="downloads/mango1.0-java.jar">Mango Jar File</a></li>
-   </ul>
-   </p>
 </div>
+
+<?php include("sidebar.php"); ?>
+
 
 </div> <!-- end wrap -->
 
