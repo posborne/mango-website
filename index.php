@@ -10,9 +10,19 @@
 <body>
 <div id="wrap">
 <div id="header">
-    <h1 id="mango_title">Mango Movie Manager</h1>
+<!--    <h1 id="mango_title">Mango Movie Manager</h1> -->
+<img src="mangotitle.png" alt="Mango Movie Manager" />
 </div>
 <div id="main">
+<div id="navcontainer">
+  <ul id="navlist">
+    <li id="active"><a href="index.php">Home</a></li>
+    <li><a href="about.php">About Mango</a></li>
+    <li><a href="docs.php">Documentation</a></li>
+    <li><a href="download.php">Download</a></li>
+    <li><a href="contact.php">Contact</a></li>
+  </ul>
+</div>
 <div id="content">
 <h2>Overview</h2>
 <p><div class="photobox" style="float:right"><a href="screenshot-main.png">
@@ -90,6 +100,7 @@ servies like Amazon to provide a rich variety of useful features:</p>
    </ul>
    </p>
 </div>
+
 </div> <!-- end wrap -->
 
 </body>
