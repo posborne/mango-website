@@ -1,4 +1,7 @@
-<?php include("header.php"); ?>
+<?php 
+$page_title = "Mango Movie Manager - About";
+include("header.php"); 
+?>
 
 <div id="main">
 <div id="navcontainer">
